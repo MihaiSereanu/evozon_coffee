@@ -1,0 +1,33 @@
+.detailsContainer {
+    background-color: #EDE7DE;
+    padding: 3.5% 10%;
+    border: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.alertsDiv {
+    color: #833921;
+    font-weight: 700;
+}
+.addBtn {
+    cursor: pointer;
+    border: none;
+    background-color:  #833921;
+    font-weight: 600;
+    padding: 0.5em;
+    transition: all .2s ease-in;
+  }
+  
+  .addBtn:focus, 
+  .addBtn:hover {
+    background-color: #363434;
+    transform: scale(1.1);
+    outline: none;
+  }

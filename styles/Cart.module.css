@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*cart container*/
+.cartContainer{
+    width: 32rem;
+    min-height: 100vh;
+    padding: 0!important;
+
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    right: 0; 
+    
+    font-family: 'Roboto';
+    background-color:  #ede6de;
+    border-left: 1px solid rgb(46, 45, 44);
+    overflow-x: hidden;
+}
+
+.closeCart{
+    right: 5000px;
+}
+
+.cartContainer button{
+    background-color: #833921;
+}
+
+.colCenter{
+    display: flex;
+    align-items: center;
+}
+
+.cart{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.activeCart {
+    right: 0;
+}
+
+.coffeeItem, .cartHeader, .cartFooter, .cartTitle{
+    width: 100%;
+    min-height: 3rem;
+    margin: 0;
+
+    border-bottom: 1px solid rgb(46, 45, 44);
+}
+
+.cartHeader, .cartTitle, .basket{
+    font-weight: 600;
+}
+
+.cartHeader div p {
+    margin-bottom: 0;
+}
+
+.cartFooter{
+    font-weight: bold;
+}
+
+/*buttons*/
+.productQuantity{
+    height: 2rem;
+    width: 4rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.currentQuantity{
+    width: 2rem;
+    text-align: center;
+}
+
+.removeButton, .checkout{
+    width: 92px;
+    height: 2.4rem;
+}
+
+.increaseQuantity,
+.decreaseQuantity{
+    background-color: grey;
+    border-radius: 3px;
+    border: black;
+    width: 1rem;
+    line-height: 1rem;
+    color: white;
+} 
+
+/* .increaseQuantity:hover,
+.decreaseQuantity:hover,
+.removeButton:hover,
+.increaseQuantity:active,
+.decreaseQuantity:active,
+.removeButton:active{
+    background-color: #833921;
+} */
+
+.checkout{
+    border: 1px solid black;
+}
+
+.checkout a{
+    color: white!important;
+    font-size: 1rem;
+    margin-left: 0;
+}
+
+.checkout:hover,
+.checkout:active{
+    background-color: #833921;
+    color: white!important;
+}
+
+.flexButton{
+    width: 1.2rem;
+    height: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exitCart{
+    margin-left: 1rem;
+}
+
+.totalSumContainer, .totalSum{
+    padding-left: 0.5rem;
+}
+
+.productName, .price, .basket{
+    margin-bottom: 0;
+}
+
+/*user message*/
+.userMessage{
+    text-align: center;
+    margin: 1rem;
+    color: red;
+}
+
+/*shop now section*/
+.shopNow{
+    margin-top: 4rem;
+}
+
+.shopNow button{
+    width: 100%;
+    height: 3rem;
+}

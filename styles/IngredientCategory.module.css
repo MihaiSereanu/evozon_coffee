@@ -1,0 +1,10 @@
+.ingredientsContainers {
+    background-color: #EDE7DE;
+    padding: 5% 2%;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+}
+.notEnough {
+    color: #833921;
+    font-weight: 700;
+}

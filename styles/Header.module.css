@@ -1,0 +1,35 @@
+.color {
+  background-color: #E4D9C5;
+}
+
+.mright {
+  margin-right: 1rem;
+}
+
+.goodfont {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-right: auto!important;
+}
+
+.icon_size {
+  width: 3rem;
+  color: #833921;
+}
+
+.headerLink {
+  color: #833921;
+}
+
+.numberOfProducts{
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.4rem;
+  border-radius: 50%;
+
+  background-color: #833921;
+  font-size: 1.2rem;
+  color: #fff;
+}
