@@ -29,13 +29,13 @@ const ProductDetails = (props) => {
 	const productID = router.query.productdetails;
 	const product = PRODUCTS_ARR.find((product) => product.id === productID);
 	const recipe = [];
-	// if (product) {
-	INGREDIENTS_ARR.forEach((ingredient) => {
-		if (product.recipe.includes(ingredient.id)) {
-			recipe.push(ingredient.label);
-		}
-	});
-	// }
+	if (product) {
+		INGREDIENTS_ARR.forEach((ingredient) => {
+			if (product.recipe.includes(ingredient.id)) {
+				recipe.push(ingredient.label);
+			}
+		});
+	}
 
 	const addPredefined = (product) => {
 		if (validateAddToCartPredefined(product.id, productsInCart, stock)) {
